@@ -211,3 +211,6 @@ span{
 #contact1:hover{
     color:white;
 }
+#sendbtn{
+    display: none;
+ }
