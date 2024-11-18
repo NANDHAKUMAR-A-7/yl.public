@@ -11,9 +11,3 @@ const message = document.getElementById("message");
     sendbtn.style.display = "block";
 });
 
-sendbtn.addEventListener("click",function (event){
-    console.log(event.target);
-    event.target.textContent ="Sended";
-    sendbtn.style.color ="white";
-    sendbtn.style.backgroundColor = "lightgreen";
-})
