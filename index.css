@@ -326,3 +326,19 @@ span1{
 span2{
     color: #8b1616;
 }
+
+span3{
+    color: red;
+}
+
+#note{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #119e39;
+    border-radius: 100%;
+    background-color: silver;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
