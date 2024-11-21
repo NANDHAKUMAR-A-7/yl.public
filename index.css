@@ -27,7 +27,7 @@ nav {
 }
 
 nav .logo h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 nav .nav-links {
@@ -36,13 +36,13 @@ nav .nav-links {
 
 nav .nav-links li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 
 nav .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 
 /* Hero Section */
@@ -234,6 +234,14 @@ span{
     background-color: white;
  }
 
+#container2{
+    box-shadow: 12px 12px 20px  rgb(8, 8, 8);
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
  #para1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #119e39;
@@ -255,6 +263,8 @@ span{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     font-weight: bold;
+    margin-right: 5px;
+    font-size:medium;
  }
 
  #cta-button{
@@ -321,6 +331,11 @@ span1{
     padding :10px;
     border-radius: 50%;
     background-color: silver;
+    box-shadow: 0 0 5px silver,0 0 25px silver,0 0 50px silver,0 0 100px silver,0 0 200px silver;
+}
+
+#insta:hover{
+    box-shadow: 0 0 5px #8b1616,0 0 25px #8b1616,0 0 50px #8b1616,0 0 100px #8b1616,0 0 200px #8b1616;
 }
 
 span2{
@@ -334,11 +349,18 @@ span3{
 #note{
     border-style: solid;
     border-width: 2px;
-    border-color: #119e39;
+    border-color: pink;
     border-radius: 100%;
-    background-color: silver;
+    background-color: pink;
     padding: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 60px #8b1616;
+}
+
+#scroll1{
+   overflow-y: auto;
+   height:300px;
+   background-color: aliceblue;
+   padding: 3px;
 }
