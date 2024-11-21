@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar{
+    display: none;
+}
+
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
@@ -239,7 +243,6 @@ span{
     margin-left: 30px;
     margin-right: 30px;
     padding-top: 10px;
-    border-radius: 15px;
     border-color: #060606;
 }
 
@@ -320,7 +323,7 @@ span1{
 #gmail{
     letter-spacing: 2px;
     font-weight: bold;
-    font-family: cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #insta{
@@ -350,12 +353,11 @@ span3{
     border-style: solid;
     border-width: 2px;
     border-color: pink;
-    border-radius: 100%;
-    background-color: pink;
+    background-color: rgb(248, 244, 245);
     padding: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    box-shadow: 2px 2px 60px #8b1616;
+    box-shadow: 15px 15px 30px #a16c6c;
 }
 
 #scroll1{
@@ -364,26 +366,30 @@ span3{
    padding: 3px;
 }
 
+#scroll1::-webkit-scrollbar{
+    display: none;
+}
+
 #form1{
     margin-left: 20px;
 }
 
 #name{
-    width: 200px;
-    box-shadow: 6px 6px 20px  rgb(8, 8, 8);
+    width: 300px;
+    
 }
 
 #email{
-    width: 200px;
-    box-shadow: 6px 6px 20px  rgb(8, 8, 8);
+    width: 300px;
+
 }
 
 #message{
-    width: 200px;
-    box-shadow: 6px 6px 20px  rgb(8, 8, 8);
+    width: 300px;
+    
 }
 
 #sendbtn{
-    width: 200px;
-    box-shadow: 6px 6px 20px  rgb(212, 185, 8);
+    width: 300px;
+    
 }
