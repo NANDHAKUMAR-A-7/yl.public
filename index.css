@@ -12,13 +12,13 @@
 #scroll1{
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 50%;
 }
 
 @keyframes appear {
     from {
         opacity: 0;
-        scale: 0.1;
+        scale: 0.5;
         clip-path: insert(100% 100% 0 0);
     }
     to{
@@ -434,7 +434,39 @@ span3{
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1s steps(12),
+    animation: typing 1s steps(13),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+#nav-links{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(28),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+#footer1{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(28),
     cursor .4s step-end infinite alternate;
 }
 
