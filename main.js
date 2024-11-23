@@ -14,3 +14,10 @@ const message = document.getElementById("message");
         alert("Get Replay As Soon As Once Our Team Receive Your Message ! ...Thank You For Contacting Us."           
         )
     });
+
+const cont3 = document.getElementById("container3");
+const logo = document.getElementById("companylogo");
+
+    logo.addEventListener("click" , function(event){
+        cont3.style.display = "block";
+    })

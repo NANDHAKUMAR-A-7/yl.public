@@ -657,3 +657,52 @@ span3{
         clip-path: inset(0 0 0 0);
     }
 }
+
+#container{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        clip-path: insert(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+.container3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 48px;
+        font-weight: 700;
+        color: #333;
+        opacity: 0;
+        transform: scale(0.5);
+        animation: fadeInScale 2s forwards;
+        display: none;
+      }
+
+@keyframes fadeInScale {
+        0% {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+}
+  
+.highlight {
+        color: #007bff; /* Blue accent for the word 'Lead' */
+}
